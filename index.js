@@ -58,7 +58,7 @@ default: console.log(buttonInnerHTML);
 
 }
 
-functionbuttonAnimation(currentKey) {
+function buttonAnimation(currentKey) {
     
     var activeButton = document.querySelector("." + currentKey);
     
@@ -66,9 +66,10 @@ functionbuttonAnimation(currentKey) {
     
     setTimeout (function() {
 
-      activeButton.classList.remove("pressed");
+    activeButton.classList.remove("pressed");
       
     }, 100);
 
 }
+
 
